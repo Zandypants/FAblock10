@@ -1,3 +1,7 @@
+/* * {
+    border: 1px solid black;
+} */
+
 body {
     background-color: chocolate;
 }
@@ -17,6 +21,57 @@ body {
     bottom: 0;
 }
 
+.rightRelative {
+    position: relative;
+    right: 0;
+}
+
 .centerText {
     text-align: center;
 }
+
+.containerFlex {
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center;
+    align-content: center; */
+    align-items: flex-end;
+    flex-wrap: nowrap;
+}
+
+.containerColumn {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: auto;
+    /* vertical-align: middle; */
+}
+
+.containerLineFit {
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerLineCenter {
+    display: flex;
+    justify-content: center;
+}
+
+/* .rightFlex {
+    display: flex;
+    align-self:flex-end;
+}
+
+.leftFlex {
+    display: flex;
+    align-self:flex-start;
+}
+
+.boxFlex {
+    display: flex;
+    width: fit-content;
+}
+
+#signInBox {
+    width: fit-content;
+} */

@@ -1,0 +1,22 @@
+body {
+    background-color: chocolate;
+}
+
+.selectedPageLink {
+    pointer-events: none;
+    color: black;
+    text-decoration-line: none;
+}
+
+.finePrint {
+    font-size: xx-small;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+}
+
+.centerText {
+    text-align: center;
+}

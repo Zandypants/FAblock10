@@ -1,0 +1,26 @@
+img {
+    height: 400px;
+}
+h1 {
+    position: relative;
+    top: 20%;
+    font-size: 48pt;
+    text-align: center;
+    color: #490206;
+}
+p {
+    position: relative;
+    top: 20%;
+    font-size: 24pt;
+    text-align: center;
+    color: chocolate;
+}
+
+.chocolateBanner {
+    background-image: url(./images/kisspng-chocolate-bar-web-banner-brown-chocolate-paper.png);
+    background-size: 1338px 513px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 513px;
+    margin-bottom: 40px;
+}

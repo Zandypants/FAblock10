@@ -7,16 +7,29 @@ body {
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 32pt;
 }
 
 label {
-    font-size: 24px;
+    font-size: 20pt;
+}
+
+a {
+    font-size: 20pt;
+    margin: 4px;
+    color: chocolate;
+    -webkit-text-stroke-width:thin;
+    /* -webkit-text-stroke-color: whitesmoke; */
+}
+
+nav {
+    background-color: #490206;
 }
 
 .selectedPageLink {
     pointer-events: none;
     color: black;
+    /* color: #490206; */
     text-decoration-line: none;
 }
 
@@ -76,21 +89,26 @@ label {
     -webkit-text-stroke-color: whitesmoke;
 }
 
-/* .rightFlex {
+.calendarContainer {
     display: flex;
-    align-self:flex-end;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
-.leftFlex {
-    display: flex;
-    align-self:flex-start;
+.monthContainer {
+    border: #490206;
+    border-width: 10px;
+    border-style:groove;
+    border-radius: 16px;
+    background-color: #490206;
+    margin: 8px 2px;
 }
 
-.boxFlex {
-    display: flex;
-    width: fit-content;
+.monthTitle {
+    font-size: 42px;
+    text-align: center;
+    color: chocolate;
+    /* color: #490206; */
+    -webkit-text-stroke-width:thin;
+    -webkit-text-stroke-color: whitesmoke;
 }
-
-#signInBox {
-    width: fit-content;
-} */
